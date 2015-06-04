@@ -1,0 +1,10 @@
+{
+    "project": {
+        "leaves": "0.24.0",
+        "appname": "testsite",
+        "options": {
+            "css": "stylus",
+            "html": "jade"
+        }
+    }
+}
