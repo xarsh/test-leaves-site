@@ -1,0 +1,5 @@
+framework: leaves
+before_script:
+  - npm install
+script:
+  - leaves
