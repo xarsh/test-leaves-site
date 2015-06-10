@@ -1,5 +1,6 @@
 framework: leaves
 before_script:
   - npm install
+  - npm install -g leaves
 script:
-  - leaves
+  - leaves build
