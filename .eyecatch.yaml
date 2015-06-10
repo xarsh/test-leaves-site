@@ -3,4 +3,7 @@ before_script:
   - npm install
   - npm install -g leaves
 script:
-  - leaves build
+  - leaves &
+routes:
+  - /
+  - /hello.html
