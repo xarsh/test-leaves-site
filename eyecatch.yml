@@ -1,8 +1,8 @@
 script:
   - npm install
   - npm install -g leaves
-serve:
-  - leaves
+serve: leaves
+port: 9000
 routes:
   - /
   - /hello.html
