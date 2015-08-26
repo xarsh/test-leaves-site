@@ -1,9 +1,8 @@
-framework: leaves
-before_script:
+script:
   - npm install
   - npm install -g leaves
-script:
-  - leaves &
+serve:
+  - leaves
 routes:
   - /
   - /hello.html
